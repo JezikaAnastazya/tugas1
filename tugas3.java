@@ -1,5 +1,13 @@
 public class tugas3{
-	public static void main(String[] args){
-		System.out.print("selesai belajar pemrograman java");
+	int a;
+	double b;
+	tugas3(){
+		a=5;
+		b=4.5;
+	}
+	
+	tugas3(int nilai1, double nilai2){
+		a=nilai1;
+		b=nilai2;
 	}
 }
